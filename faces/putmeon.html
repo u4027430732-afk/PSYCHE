@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="putmeon.css?v=1.0.1" />
+    <link rel="icon" href="./assets/logo1.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./assets/logo1.png" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>put me on</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>PUT ME ON!</h1>
+      <input type="file" id="uploadImage" accept="image/*" />
+      <canvas id="photoCanvas"></canvas>
+      <div class="controls-and-export-button">
+        <div class="controls">
+          <button class="edit-button" id="increaseSize">zoom in</button>
+          <button class="edit-button" id="decreaseSize">zoom out</button>
+          <button class="edit-button" id="flipHat">flip hat</button>
+          <button class="edit-button" id="rotateRight">rotate right</button>
+          <button class="edit-button" id="rotateLeft">rotate left</button>
+        </div>
+        <button id="exportButton">Save</button>
+      </div>
+    </div>
+
+    <script src="putmeon.js?v=1.0.1"></script>
+  </body>
+</html>
